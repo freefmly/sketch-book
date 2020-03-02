@@ -87,6 +87,8 @@ function handleRefreshClick() {
   if (filling === true) {
     filling = false;
     mode.innerText = "칠하기";
+    ctx.strokeStyle = INITIAL_COLOR;
+    ctx.lineWidth = 2.5;
   }
 }
 
