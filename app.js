@@ -83,7 +83,6 @@ function handleSaveClick() {
 
 function handleRefreshClick() {
   ctx.fillStyle = "white";
-  ctx.strokeStyle = INITIAL_COLOR;
   ctx.lineWidth = 2.5;
   range.value = 2.5;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
